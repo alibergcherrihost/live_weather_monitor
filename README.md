@@ -1,11 +1,11 @@
 # live_weather_monitor
 This program connects to a designated WiFi network, addresses failures via serial output and OLED display, blinks an LED for status. It then makes HTTP requests to Thingspeak channels, fetches weather data, parses it, and dynamically displays relevant information on an OLED screen.
 
-**LIBRARY REQUIREMENTS:**
-Adafruit_GFX.h
-Adafruit_SH110X.h  (If you're using SH1106 driver-based display)
-Adafruit_SSD1306.h (If you're using SSD1306 driver-based display)
-ESP8266WiFi.h      (If you're using ESP8266-based boards)
+**LIBRARY REQUIREMENTS:**<br />
+Adafruit_GFX.h<br />
+Adafruit_SH110X.h  (If you're using SH1106 driver-based display)<br />
+Adafruit_SSD1306.h (If you're using SSD1306 driver-based display)<br />
+ESP8266WiFi.h      (If you're using ESP8266-based boards)<br />
 
 # Instructions for Data Retrieval and API Creation
 
