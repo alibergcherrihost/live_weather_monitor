@@ -1,5 +1,5 @@
 # live_weather_monitor
-This program connects to a designated WiFi network, addresses failures via serial output and OLED display, blinks an LED for status. It then makes HTTP requests to Thingspeak channels, fetches weather data, parses it, and dynamically displays relevant information on an OLED screen.
+This program connects to a designated WiFi network, addresses failures via serial output and OLED display, blinks an LED for status. It then makes HTTP requests to Thingspeak channels, fetches weather data, parses it, and dynamically displays relevant information on an OLED screen. The code is designed to work with both SSD1306 & SH1106 display drivers.
 
 **LIBRARY REQUIREMENTS:**<br />
 Adafruit_GFX.h<br />
