@@ -49,8 +49,8 @@ unsigned long previousMillis = 0;     // Last time the LED was updated
 const long interval = 500;            // Interval at which to blink the LED (milliseconds)
 
 // WiFi Credentials
-const char* ssid = "your ssid name";
-const char* password = "your wifi password";
+const char* ssid = "ssid name";         // Replace with your WiFi network name (SSID)
+const char* password = "password";      // Replace with your WiFi password
 
 boolean wifiConnected = false;        // Flag to track WiFi connection status
 //-------------------------------------------------------------------------------
